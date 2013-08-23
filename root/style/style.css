@@ -1,0 +1,123 @@
+<!-- **** style.css **** -->
+body {
+	 margin: 0px; 
+	 font-family: Tahoma, Geneva, sans-serif; 
+	 font-size: 14px;
+	 background-color: #F00;
+}
+/* PAGE TOP */
+#pageTop {
+	background:url(header.jpg);
+	height: 332px;
+	margin-bottom:0px;
+}
+#pageTop > #pageTopWrap {
+	width: 1000px;
+	margin: 0px auto;
+	height: 90px;
+}
+#pageTop > #pageTopWrap > #pageTopLogo {
+	float: left;
+	margin:0px auto;
+	position:absolute;
+	top:35%;
+	left:15%;
+	
+}
+#pageTop > #pageTopWrap > #pageTopRest {
+	float: left;
+	height: 200px;
+	width: 892px;
+	
+}
+#pageTop > #pageTopWrap > #pageTopRest > #menu1 {
+	height: 44px;
+	
+}
+#pageTop > #pageTopWrap > #pageTopRest > #menu1 > div {
+	margin-top: 8px;
+	padding: 8px;
+	text-align:right;
+	color: #CCC;
+}
+#pageTop > #pageTopWrap > #pageTopRest > #menu1 > div > a {
+	color: #303;
+	text-decoration: none;
+}
+#pageTop > #pageTopWrap > #pageTopRest > #menu1 > div > a:hover {
+	color: #C0E73D;
+}
+#pageTop > #pageTopWrap > #pageTopRest > #menu2 {
+	height: 44px;
+}
+#pageTop > #pageTopWrap > #pageTopRest > #menu2 > div {
+	margin-top: 2px;
+	padding: 4px;
+}
+#pageTop > #pageTopWrap > #pageTopRest > #menu2 > div > a {
+	display: block;
+	float: left;
+	color:#006;
+	text-decoration: none;
+	margin: 0px 16px;
+	
+	
+}
+#pageTop > #pageTopWrap > #pageTopRest > #menu2 > div > a:hover {
+	color: #C0E73D;
+}
+/* PAGE MIDDLE */
+#pageMiddle{
+	width: 1000px;
+	margin: 0px auto;
+	height: 740px;
+	background:url(body.jpg) repeat-y;
+}
+/* PAGE BOTTOM */
+#pageBottom{
+	height:332px;
+	width:940px;
+	background: #1A1A1A;
+	padding: 10px;
+	font-size: 12px;
+	color: #CCC;
+	text-align: center;
+	background:url(footer.jpg);
+}
+.wrap_overall{
+	width:960px;
+	margin:0px auto;
+	border-left:1px solid #dfdfdf;
+	border-top:1px solid #dfdfdf;
+	border-bottom:1px solid #dfdfdf;
+	border-right:1px solid #dfdfdf;
+	padding:0px;
+	background-color:#ccc;
+		
+}
+.overall{
+	background-color:#ccc;
+		
+}
+#home{
+	height:100%;
+	position:absolute;
+	top:100%;
+	left:100%;
+		
+}
+#menu1{
+	position:absolute;
+	top:8%;
+	left:20%;	
+}
+#menu11{
+	position:absolute;
+	top:10%;
+	left:20%;	
+}
+#menu2{
+	position:absolute;
+	top:38%;
+	left:46%;	
+}
